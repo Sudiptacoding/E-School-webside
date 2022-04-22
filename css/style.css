@@ -1,0 +1,159 @@
+.container img{
+    width: 200px;
+}
+.ml_auto{
+    margin-left: auto;
+}
+.nav-item a{
+font-size: 17px;
+color: black!important;
+font-weight: 400;
+margin-right: 29px;
+}
+.nav_button{
+background-color: #21B573;
+border: none;
+padding: 12px 28px;
+border-radius: 33px;
+color: white;
+}
+.b_g{
+background-color: #F0FFF0;
+width: 100%;
+}
+.pos_1{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.pos_2{
+font-size: 48px;
+font-weight: 700;
+margin: 22px 0px;
+}
+.pos_button{
+background-color: #21B573;
+border: none;
+padding: 12px 36px;
+border-radius: 33px;
+color: white;
+margin-top: 10px;
+}
+.pl_0{
+padding-left: 0px;
+}
+.nav_button:hover{
+background-color: rgb(43, 26, 236);
+}
+.pos_button:hover{
+background-color: rgb(30, 252, 133);
+}
+.container .card{
+    width: 255px;
+}
+.stl_book{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 63px;
+    margin-bottom: 55px;
+}
+.stl_book img{
+    width: 66px;
+    height: 85px;
+}
+.card-body{
+    text-align: center;
+    padding-top: 45px;
+}
+.stl_book h1{
+    font-size: 24px;
+    padding-top: 17px;
+}
+.stl_book .card{
+    background-color: #F8FFFB;
+    border-radius: 10px;
+}
+.stl_book .box_1{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 1px 4px 9px grey;
+}
+@media (min-width: 350px) and (max-width: 700px) { 
+    .stl_book{flex-direction: column; }
+ }
+ @media (min-width: 350px) and (max-width: 700px) { 
+   .box_1{margin: 10px 0px; }
+ }
+ @media (min-width: 350px) and (max-width: 700px) { 
+   .card{margin: 10px 0px; }
+ }
+ @media (min-width: 350px) and (max-width: 700px) { 
+    .box_5{flex-direction: column; }
+  }
+
+.center_tx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 37px;
+    font-size: 36px;
+}
+.Online_cos img{
+    width: 100%;
+}
+.Online_cos .card{
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 6px 7px 17px 2px lightgrey;
+    border: 1px solid #8080804a;
+    border-radius: 12px;
+}
+.Online_cos .card-body{
+    text-align: left;
+}
+.icon_f{
+    padding: 21px 27px 9px 0px;
+}
+.icon_tx{font-size: 13px;
+    padding-left: 8px;}
+.Testimonial_s{
+    padding: 43px 0px;
+    text-align: center;
+}
+.Testimonial_s h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+.box_5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 19%;
+}
+.box_5 img{
+        Width:120px;
+        Height:120px;
+}
+.footr_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footr_1 ul{
+    list-style: none;
+}
+.footr_bg{
+    background-color: #282531;
+    color: white;
+    padding: 43px 0px 13px;
+}
+.f_t{
+    font-size: 15px;
+    font-weight: 700;
+}
+.f_cop{
+    text-align: center;
+    padding-top: 84px;
+    font-size: 14px;
+}
